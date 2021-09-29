@@ -197,7 +197,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -265,7 +264,7 @@ footer p {
 nav p {
   font-size: 18px;
 } */
-
+/*
 .clear {
   clear: both;
 }
@@ -288,4 +287,34 @@ aside {
 
 footer {
   clear: both;
+}
+*/
+
+/* FLEXBOX */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+}
+
+.related-author {
+}
+
+.related-link {
+  font-size: 17px;
 }
